@@ -1698,22 +1698,6 @@ pre code {
   z-index: 1500;
 }
 .back-to-top {
-  right: 60px;
-  width: 70px;
-  height: 900px;
-  top: -900px;
-  bottom: unset;
-  transition: all 0.5s ease-in-out;
-  background: url("/images/scroll.png");
-}
-.back-to-top > i {
-  display: none;
-}
-.back-to-top.back-to-top-on {
-  bottom: unset;
-  top: calc(100vh - 900px - 200px);
-}
-.back-to-top {
   font-size: 12px;
   bottom: -100px;
   box-sizing: border-box;
@@ -1745,6 +1729,22 @@ pre code {
 }
 .back-to-top.back-to-top-on {
   bottom: 30px;
+}
+.back-to-top {
+  right: 60px;
+  width: 70px;
+  height: 900px;
+  top: -900px;
+  bottom: unset;
+  transition: all 0.5s ease-in-out;
+  background: url("/images/scroll.png");
+}
+.back-to-top > i {
+  display: none;
+}
+.back-to-top.back-to-top-on {
+  bottom: unset;
+  top: calc(100vh - 900px - 200px);
 }
 .rtl.post-body p,
 .rtl.post-body a,
