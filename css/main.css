@@ -1737,7 +1737,7 @@ pre code {
   top: -900px;
   bottom: unset;
   transition: all 0.5s ease-in-out;
-  background: url("/images/scroll.png");
+  background: url("/images/scroll.png") !important;
 }
 .back-to-top > i {
   display: none;
